@@ -20,7 +20,11 @@
   },
   "homepage": "https://github.com/yumyC/node-blog#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^3.1.2",
+    "sequelize": "^6.29.0"
   },
   "devDependencies": {
     "babel": "^6.23.0",
@@ -29,7 +33,7 @@
     "babel-loader": "^9.1.2",
     "babel-node": "^0.0.1-security",
     "babel-preset-env": "^1.7.0",
-    "babel-preset-stage-0": "^6.24.1",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
   }
 }
